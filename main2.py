@@ -3,9 +3,9 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import pandas as pd
-from attention_model import AttentionModel
+from models.attention_model import AttentionModel
 from batchData import GetData
-from precision_recall import *
+from metric.precision_recall import *
 
 model = AttentionModel()
 model.build(input_shape=(64, 10, 50))

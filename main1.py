@@ -2,9 +2,9 @@
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
-from basic_lstm import basic_lstm
+from models.basic_lstm import basic_lstm
 from batchData import GetData
-from precision_recall import *
+from metric.precision_recall import *
 
 model = basic_lstm()
 
